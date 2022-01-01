@@ -25,9 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  UITableView & UICollectionView
                    DESC
-                   UITableView
-                   UICollectionView
+                   
   spec.homepage     = "https://github.com/wanggoing/ZHTCView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/ZHTCView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wanggoing/ZHTCView", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "ZHTCView", "ZHTCView/**/*.{h,m}"
-  spec.exclude_files = "ZHTCView/"
+  # spec.exclude_files = "ZHTCView/"
 
   # spec.public_header_files = "ZHTCView/**/*.h"
 
