@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3CD54827873F9500DE2770 /* ZHCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3CD54627873F9500DE2770 /* ZHCollectionView.m */; };
+		6B3CD54927873F9500DE2770 /* ZHCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3CD54727873F9500DE2770 /* ZHCollectionView.h */; };
 		6B9510B32780265F00D75666 /* ZHTCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9510B02780265F00D75666 /* ZHTCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9510BB278026C600D75666 /* ZHTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9510B9278026C600D75666 /* ZHTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9510BC278026C600D75666 /* ZHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510BA278026C600D75666 /* ZHTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B3CD54627873F9500DE2770 /* ZHCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCollectionView.m; sourceTree = "<group>"; };
+		6B3CD54727873F9500DE2770 /* ZHCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCollectionView.h; sourceTree = "<group>"; };
 		6B9510AD2780265F00D75666 /* ZHTCView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTCView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9510B02780265F00D75666 /* ZHTCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTCView.h; sourceTree = "<group>"; };
 		6B9510B9278026C600D75666 /* ZHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTableView.h; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 				6B9510B02780265F00D75666 /* ZHTCView.h */,
 				6B9510B9278026C600D75666 /* ZHTableView.h */,
 				6B9510BA278026C600D75666 /* ZHTableView.m */,
+				6B3CD54727873F9500DE2770 /* ZHCollectionView.h */,
+				6B3CD54627873F9500DE2770 /* ZHCollectionView.m */,
 			);
 			path = ZHTCView;
 			sourceTree = "<group>";
@@ -65,6 +71,7 @@
 			files = (
 				6B9510BB278026C600D75666 /* ZHTableView.h in Headers */,
 				6B9510B32780265F00D75666 /* ZHTCView.h in Headers */,
+				6B3CD54927873F9500DE2770 /* ZHCollectionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B9510BC278026C600D75666 /* ZHTableView.m in Sources */,
+				6B3CD54827873F9500DE2770 /* ZHCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +289,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = wangzhaohui.ZHTCView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -312,7 +320,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.4;
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = wangzhaohui.ZHTCView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

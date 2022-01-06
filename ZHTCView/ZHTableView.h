@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class ZHTableViewHeaderFooterObject;
 
-// 几组
+// 组
 typedef NSInteger(^ZHNumberOfSectionsInBlock)(UITableView *tableView);
 // 每组 头/脚
 typedef ZHTableViewHeaderFooterObject *_Nullable(^ZHTableViewHeaderFooterBlock)(UITableView *tableView, NSInteger section, BOOL isHeader);
@@ -19,7 +19,7 @@ typedef ZHTableViewHeaderFooterObject *_Nullable(^ZHTableViewHeaderFooterBlock)(
 typedef NSInteger(^ZHNumberOfRowsInSectionBlock)(UITableView *tableView, NSInteger section);
 // 每组行高
 typedef NSInteger(^ZHHeightForRowAtIndexPathBlock)(UITableView *tableView, NSIndexPath *indexPath);
-// 每行细胞
+// 细胞
 typedef UITableViewCell *_Nonnull(^ZHCellForRowAtIndexPathBlock)(UITableView *tableView,NSIndexPath *indexPath);
 // 点击细胞
 typedef void(^ZHDidSelectRowAtIndexPath)(UITableView *tableView, NSIndexPath *indexPath);
