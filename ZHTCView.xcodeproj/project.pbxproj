@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6B3CD54827873F9500DE2770 /* ZHCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3CD54627873F9500DE2770 /* ZHCollectionView.m */; };
 		6B3CD54927873F9500DE2770 /* ZHCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3CD54727873F9500DE2770 /* ZHCollectionView.h */; };
+		6B5303CB278C96CA00A8AB6A /* ZHToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5303C9278C96CA00A8AB6A /* ZHToast.m */; };
+		6B5303CC278C96CA00A8AB6A /* ZHToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5303CA278C96CA00A8AB6A /* ZHToast.h */; };
 		6B9510B32780265F00D75666 /* ZHTCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9510B02780265F00D75666 /* ZHTCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9510BB278026C600D75666 /* ZHTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9510B9278026C600D75666 /* ZHTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9510BC278026C600D75666 /* ZHTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9510BA278026C600D75666 /* ZHTableView.m */; };
@@ -17,6 +19,8 @@
 /* Begin PBXFileReference section */
 		6B3CD54627873F9500DE2770 /* ZHCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCollectionView.m; sourceTree = "<group>"; };
 		6B3CD54727873F9500DE2770 /* ZHCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCollectionView.h; sourceTree = "<group>"; };
+		6B5303C9278C96CA00A8AB6A /* ZHToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHToast.m; sourceTree = "<group>"; };
+		6B5303CA278C96CA00A8AB6A /* ZHToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHToast.h; sourceTree = "<group>"; };
 		6B9510AD2780265F00D75666 /* ZHTCView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHTCView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9510B02780265F00D75666 /* ZHTCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTCView.h; sourceTree = "<group>"; };
 		6B9510B9278026C600D75666 /* ZHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTableView.h; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				6B9510BA278026C600D75666 /* ZHTableView.m */,
 				6B3CD54727873F9500DE2770 /* ZHCollectionView.h */,
 				6B3CD54627873F9500DE2770 /* ZHCollectionView.m */,
+				6B5303CA278C96CA00A8AB6A /* ZHToast.h */,
+				6B5303C9278C96CA00A8AB6A /* ZHToast.m */,
 			);
 			path = ZHTCView;
 			sourceTree = "<group>";
@@ -69,6 +75,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5303CC278C96CA00A8AB6A /* ZHToast.h in Headers */,
 				6B9510BB278026C600D75666 /* ZHTableView.h in Headers */,
 				6B9510B32780265F00D75666 /* ZHTCView.h in Headers */,
 				6B3CD54927873F9500DE2770 /* ZHCollectionView.h in Headers */,
@@ -143,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B5303CB278C96CA00A8AB6A /* ZHToast.m in Sources */,
 				6B9510BC278026C600D75666 /* ZHTableView.m in Sources */,
 				6B3CD54827873F9500DE2770 /* ZHCollectionView.m in Sources */,
 			);
@@ -289,7 +297,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = wangzhaohui.ZHTCView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -320,7 +328,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = wangzhaohui.ZHTCView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "ZHTCView"
   s.summary      = "UITableView & UICollectionView"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "wangzhaohui" => "wanggoing@icloud.com" }
   s.homepage     = "https://github.com/wanggoing/ZHTCView"
